@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Builder_Pattern_Diego.Diagrama
 {
-    class EnduroBuilder : CarroBuilder
+    class DeportioBuilder : CarroBuilder
     {
-        public EnduroBuilder()
+        public DeportioBuilder()
         {
             carro = new Carro("Enduro");
         }

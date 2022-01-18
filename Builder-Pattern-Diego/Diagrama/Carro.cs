@@ -29,7 +29,7 @@ namespace Builder_Pattern_Diego.Diagrama
         public void Show()
         {
             Console.WriteLine("\n---------------------------");
-            Console.WriteLine("Tipo de Moto: {0}", _carroTipo);
+            Console.WriteLine("Tipo de Carro : {0}", _carroTipo);
             Console.WriteLine(" Motor : {0}", _parts["motor"]);
             Console.WriteLine(" Ruedas: {0}", _parts["ruedas"]);
             Console.WriteLine(" Carroceria : {0}", _parts["carroceria"]);

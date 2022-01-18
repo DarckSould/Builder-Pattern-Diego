@@ -13,15 +13,15 @@ namespace Builder_Pattern_Diego
             Concecionaria concecionaria = new Concecionaria();
 
             // Construct and display vehicles
-            builder = new ScooterBuilder();
+            builder = new CrossoverBuilder();
             concecionaria.Construct(builder);
             builder.Carro.Show();
 
-            builder = new EnduroBuilder();
+            builder = new DeportioBuilder();
             concecionaria.Construct(builder);
             builder.Carro.Show();
 
-            builder = new PisteroBuilder();
+            builder = new FamiliarBuilder();
             concecionaria.Construct(builder);
             builder.Carro.Show();
 
